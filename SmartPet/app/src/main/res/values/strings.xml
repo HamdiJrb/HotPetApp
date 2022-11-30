@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">hotPet</string>
+    <!--Titles & Description-->
+
+    <string name="first_slide_title">Profile</string>
+    <string name="first_slide_desc">Get a profile to your pet like the one you have on Instagram</string>
+
+    <string name="second_slide_title">Discover</string>
+    <string name="second_slide_desc">Swipe right to like someone or swipe left to pass</string>
+
+    <string name="third_slide_title">It’s a Match !</string>
+    <string name="third_slide_desc">If they also swipe right then It’s a match</string>
+
+    <string name="fourth_slide_title">Chat</string>
+    <string name="fourth_slide_desc">Only pets you’ve matched with can message you</string>
+
+    <!--Buttons-->
+    <string name="get_started">Get Started</string>
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="create">Create an account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

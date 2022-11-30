@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Colors !-->
+    <color name="primaryColor">#bb8838</color>
+    <color name="primaryLightColor">#f0b866</color>
+    <color name="primaryDarkColor">#875b05</color>
+
+    <color name="secondaryColor">#61764b</color>
+    <color name="secondaryLightColor">#8fa577</color>
+    <color name="secondaryDarkColor">#364a22</color>
+
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <!-- Grey !-->
+    <color name="blackH2">#1A0F0F</color>
+    <color name="greyH3">#797575</color>
+
+    <!-- Bottom Navigation !-->
+    <color name="bottom_nav_background">#E1D8D8</color>
+    <color name="bottom_nav_item">#875b05</color>
+    <color name="bottom_nav_selected_item">#61764b</color>
+
+    <!-- Gradient !-->
+    <color name="startBackground">#FFE5C1</color>
+    <color name="endBackground">#9BA17B</color>
+    <color name="startButton">#D29D55</color>
+    <color name="endButton">#61764B</color>
+
+    <!-- Others !-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="FillButton">#FFFCF1</color>
+</resources>

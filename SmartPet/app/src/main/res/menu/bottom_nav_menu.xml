@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/discoverFragment"
+        android:icon="@drawable/menu_discover"
+        android:title="Discover" />
+    <!-- <item
+        android:id="@+id/matchFragment"
+        android:icon="@drawable/menu_match"
+        android:title="Matches" /> !-->
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/menu_chat"
+        android:title="Chat" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/menu_profile"
+        android:title="Profile" />
+</menu>
