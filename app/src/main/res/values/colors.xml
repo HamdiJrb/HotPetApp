@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DARK/LIGHT COLORS -->
+    <color name="colorPrimary">#bb8838</color>
+    <color name="colorAccent">#bb8838</color>
+    <color name="colorSecondary">#61764b</color>
+    <color name="textPrimary">#000000</color>
+    <color name="background">#FDF3E6</color>
+    <color name="backgroundClear">#FFFFFF</color>
+
+    <!-- Bottom Navigation !-->
+    <color name="bottom_nav_background">#E1D8D8</color>
+    <color name="bottom_nav_item">#875b05</color>
+    <color name="bottom_nav_selected_item">#61764b</color>
+
+    <!-- STATIC COLORS -->
+    <color name="black">#000000</color>
+    <color name="black_alpha60">#99000000</color>
+    <color name="blue">#20458E</color>
+    <color name="green">#00CC33</color>
+    <color name="red">#9E3D3D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#B3B3B3</color>
+    <color name="darker_grey">#858585</color>
+    <color name="white_alpha_90">#E6FFFFFF</color>
+    <color name="white_alpha_50">#80FFFFFF</color>
+    <color name="dark">#202832</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

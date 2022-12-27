@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/noMoreCardsTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_more_cards"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/givePermissionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/give_permission"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <com.lorentzos.flingswipe.SwipeFlingAdapterView
+            android:id="@+id/flingContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            app:rotation_degrees="15.5"
+            tools:context=".MyActivity" />
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/singleSwipeShimmer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true">
+
+            <include layout="@layout/single_swipe_shimmer" />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:contentDescription="@string/todo"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/dislikeIB"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_button_with_border"
+            android:contentDescription="@string/todo"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_dislike" />
+
+        <ImageButton
+            android:id="@+id/testImageButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_button_with_border"
+            android:contentDescription="@string/todo"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_pets" />
+
+
+        <ImageButton
+            android:id="@+id/likeIB"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/round_button_with_border"
+            android:contentDescription="@string/todo"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_like" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

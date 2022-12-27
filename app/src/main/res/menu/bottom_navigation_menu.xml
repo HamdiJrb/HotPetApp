@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/discoverFragment"
+        android:enabled="true"
+        android:icon="@drawable/menu_discover"
+        android:title="@string/discover" />
+
+    <item
+        android:id="@+id/matchFragment"
+        android:enabled="true"
+        android:icon="@drawable/menu_match"
+        android:title="@string/matches" />
+
+    <item
+        android:id="@+id/chatFragment"
+        android:enabled="true"
+        android:icon="@drawable/menu_chat"
+        android:title="@string/chat" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:icon="@drawable/menu_profile"
+        android:title="@string/profile" />
+</menu>

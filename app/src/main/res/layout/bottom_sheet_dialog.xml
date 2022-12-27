@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame_rounded_top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundClear"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/setAsProfileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent"
+            android:text="@string/set_as_profile_picture"
+            android:textColor="@color/textPrimary"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/deleteImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:background="@color/transparent"
+            android:text="@string/delete_image"
+            android:textColor="@color/textPrimary"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/dismiss"
+            android:textColor="@color/backgroundClear"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

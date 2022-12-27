@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DARK/LIGHT COLORS -->
+    <color name="colorPrimary">#cf9c51</color>
+    <color name="colorAccent">#cf9c51</color>
+    <color name="colorSecondary">#64774c</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="background">#031522</color>
+    <color name="backgroundClear">#000000</color>
+
+    <!-- Bottom Navigation !-->
+    <color name="bottom_nav_background">#1E1D1D</color>
+    <color name="bottom_nav_item">#875b05</color>
+    <color name="bottom_nav_selected_item">#61764b</color>
+
+</resources>

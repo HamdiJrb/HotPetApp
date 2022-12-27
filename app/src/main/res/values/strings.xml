@@ -1,0 +1,108 @@
+<resources>
+    <!-- BASE -->
+    <string name="app_name" translatable="false">HotPet</string>
+
+    <!-- INPUT -->
+
+    <!-- GOOGLE -->
+    <string name="server_client_id">558147355509-mmng3cohr7e38di6bbhrnl0di7oph7tr.apps.googleusercontent.com</string>
+
+    <!-- FACEBOOK -->
+    <string name="facebook_app_id">669528034823240</string>
+    <string name="fb_login_protocol_scheme">fb669528034823240</string>
+    <string name="facebook_client_token">a7e61cca49022386463d0128d5c15ec9</string>
+
+    <!-- Others -->
+    <string name="todo" translatable="false">TODO</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="posts">Posts</string>
+    <string name="people">People</string>
+    <string name="music">Music</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Exp: email@example.com</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="password_hint">Type a strong password</string>
+    <string name="username_hint">Type your pet\'s new username</string>
+    <string name="create_a_new_post">Create a new post</string>
+    <string name="title_hint">Type the title</string>
+    <string name="description_hint">Type the description</string>
+    <string name="add_post">Add post</string>
+    <string name="password_hint_login">Type your password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="you_don_t_have_an_account">You don\'t have an account ?</string>
+    <string name="password_reset">Password reset</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="social">Social</string>
+    <string name="profile">Profile</string>
+    <string name="fullName">FullName</string>
+    <string name="logout">Logout</string>
+    <string name="logout_message">Are you sure to want to logout ?</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="title_activity_comments">CommentsActivity</string>
+    <string name="my_location">My location</string>
+    <string name="location">location</string>
+    <string name="people_in_this_place">People who were here :</string>
+    <string name="add_comment">Add comment</string>
+    <string name="comment">Comment</string>
+    <string name="new_message">Type a new message</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="action_settings">Settings</string>
+    <string name="please_type_your_email">Please type your email</string>
+    <string name="facebook">facebook</string>
+    <string name="you_already_have_an_account">You already have an account ?</string>
+    <string name="about_you">About you</string>
+    <string name="about_hint">Type things about your pet</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="horse">Horse</string>
+    <string name="category">Category</string>
+    <string name="about">About</string>
+    <string name="update_profile">Update profile</string>
+    <string name="matching">Matching</string>
+    <string name="nope">NOPE</string>
+    <string name="like">LIKE</string>
+    <string name="no_more_cards">No more cards</string>
+    <string name="choose_profile_picture">Choose profile picture</string>
+    <string name="matches">Matches</string>
+    <string name="age">Age</string>
+    <string name="username_profile">Username : %1$s</string>
+    <string name="about_profile">About : %1$s</string>
+    <string name="age_profile">Age : %1$s</string>
+    <string name="gender_profile">Gender : %1$s</string>
+    <string name="category_profile">Category : %1$s</string>
+    <string name="contact">Contact</string>
+    <string name="block">Block</string>
+    <string name="send">Send</string>
+    <string name="give_location_permission_access">You need to give location permission access</string>
+    <string name="give_permission">Give permission</string>
+    <string name="save_changes">Save changes</string>
+    <string name="pictures">Pictures</string>
+    <string name="add_new_picture">Add new picture</string>
+    <string name="discover">Discover</string>
+    <string name="please_login_to_your_account">Please login to your account</string>
+    <string name="new_password">New password</string>
+    <string name="reset_code">Reset Code</string>
+    <string name="please_type_the_code_received_in_your_email">Please type the code received in your email</string>
+    <string name="please_type_your_new_password">Please type your new password</string>
+    <string name="please_type_your_informations">Please type your informations</string>
+    <string name="set_as_profile_picture">Set as profile picture</string>
+    <string name="delete_image">Delete image</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="please_complete_the_informations">Please complete your informations</string>
+    <string name="complete_registration">Complete registration</string>
+    <string name="remove">Delete</string>
+</resources>

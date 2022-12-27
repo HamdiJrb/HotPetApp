@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".view.fragments.ConversationsFragment">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tooltipText="Type anything !" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shimmer_duration="1000"
+        app:shimmer_repeat_mode="restart"
+        app:shimmer_shape="linear">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/single_chat_shimmer" />
+
+            <include layout="@layout/single_chat_shimmer" />
+
+            <include layout="@layout/single_chat_shimmer" />
+
+            <include layout="@layout/single_chat_shimmer" />
+
+            <include layout="@layout/single_chat_shimmer" />
+
+            <include layout="@layout/single_chat_shimmer" />
+
+            <include layout="@layout/single_chat_shimmer" />
+
+            <include layout="@layout/single_chat_shimmer" />
+
+            <include layout="@layout/single_chat_shimmer" />
+
+            <include layout="@layout/single_chat_shimmer" />
+
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/conversationsRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
