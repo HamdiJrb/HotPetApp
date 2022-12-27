@@ -12,8 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/settings"
-        android:textColor="@color/textPrimary"
+        android:textColor="@color/colorSecondary"
         android:textSize="35sp"
+        android:fontFamily="@font/nexa_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Filter by age"
+        android:fontFamily="@font/nexa_regular"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,6 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Filter by location"
+        android:fontFamily="@font/nexa_regular"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -129,11 +132,14 @@
 
     </LinearLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/saveChangesButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
         android:layout_marginTop="30dp"
+        android:background="@drawable/gradient_button"
         android:text="@string/save_changes" />
 
 </LinearLayout>

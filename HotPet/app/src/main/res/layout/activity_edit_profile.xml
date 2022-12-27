@@ -32,7 +32,7 @@
                     android:layout_height="match_parent"
                     android:contentDescription="@string/todo"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ic_pets" />
+                    app:srcCompat="@drawable/gallery" />
             </androidx.cardview.widget.CardView>
 
             <TextView
@@ -41,10 +41,10 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/nexa_bold"
                 android:text="@string/update_profile"
                 android:textColor="@color/white"
-                android:textSize="45sp"
+                android:textSize="35sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -207,16 +207,17 @@
 
         </RadioGroup>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/editProfileButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_marginVertical="30dp"
-            android:backgroundTint="@color/colorPrimary"
+            android:background="@drawable/gradient_button"
             android:text="@string/edit_profile"
             android:textColor="#EFECEC"
-            android:textStyle="bold" />
+            android:textSize="20sp"
+            android:fontFamily="@font/nexa_bold"/>
 
     </LinearLayout>
 </ScrollView>

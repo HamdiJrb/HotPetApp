@@ -116,7 +116,8 @@
                         android:layout_marginHorizontal="20dp"
                         android:text="@string/username"
                         android:textColor="@color/textPrimary"
-                        android:textSize="20sp"
+                        android:textSize="23sp"
+                        android:fontFamily="@font/nexa_bold"
                         android:textStyle="bold" />
 
                     <TextView
@@ -126,6 +127,7 @@
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginVertical="10dp"
                         android:text="@string/about"
+                        android:fontFamily="@font/nexa_regular"
                         android:textColor="@color/textPrimary"
                         android:textSize="20sp" />
 
@@ -139,6 +141,7 @@
                     android:layout_marginVertical="10dp"
                     android:text="@string/age"
                     android:textColor="@color/textPrimary"
+                    android:fontFamily="@font/nexa_regular"
                     android:textSize="20sp" />
             </LinearLayout>
 

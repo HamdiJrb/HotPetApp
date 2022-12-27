@@ -81,7 +81,7 @@
             android:contentDescription="@string/todo"
             android:elevation="3dp"
             android:padding="10dp"
-            android:src="@drawable/ic_dislike" />
+            android:src="@drawable/dislike" />
 
         <ImageButton
             android:id="@+id/testImageButton"
@@ -93,7 +93,7 @@
             android:contentDescription="@string/todo"
             android:elevation="3dp"
             android:padding="10dp"
-            android:src="@drawable/ic_pets" />
+            android:src="@drawable/super_like" />
 
 
         <ImageButton
@@ -104,7 +104,7 @@
             android:contentDescription="@string/todo"
             android:elevation="3dp"
             android:padding="10dp"
-            android:src="@drawable/ic_like" />
+            android:src="@drawable/like" />
 
 
     </LinearLayout>
