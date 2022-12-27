@@ -1,0 +1,15 @@
+const express = require("express")
+const router = express.Router()
+const controller = require("../controllers/chat-controller")
+
+router.get("/", controller.getAllConversations)
+router.get("/tout-messages", controller.getAllMessages)
+router.get("/my-conversations/:senderId", controller.getMyConversations)
+router.get("/my-messages/:conversationId", controller.getMyMessages)
+router.post("/add-conversation", controller.createConversation)
+router.post("/send-message", controller.sendMessage)
+router.delete("/one/:id", controller.deleteConversation)
+router.delete("/message", controller.deleteMessage)
+router.delete("/deleteAll", controller.deleteAll)
+
+module.exports = router
