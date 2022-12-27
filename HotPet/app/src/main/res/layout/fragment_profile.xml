@@ -51,7 +51,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="20dp"
                         android:backgroundTint="@color/colorPrimary"
+                        android:drawableEnd="@drawable/editt"
                         android:text="@string/edit_profile"
+                        android:fontFamily="@font/nexa_bold"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
@@ -60,10 +62,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:backgroundTint="@color/red"
+                        android:backgroundTint="@color/colorSecondary"
                         android:drawableEnd="@drawable/ic_arrow_next"
                         android:drawableTint="@color/white"
                         android:text="@string/logout"
+                        android:fontFamily="@font/nexa_bold"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
@@ -128,7 +131,8 @@
                     android:layout_margin="20dp"
                     android:layout_marginVertical="30dp"
                     android:text="@string/pictures"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+                    android:textColor="@color/colorSecondary"/>
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/imagesRV"
@@ -137,13 +141,13 @@
                     android:background="@color/background"
                     android:orientation="horizontal" />
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/addImageButton"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:layout_margin="20dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/gradient_button"
                     android:drawableEnd="@drawable/ic_add"
                     android:src="@drawable/ic_add"
                     android:text="@string/add_new_picture"

@@ -53,6 +53,7 @@
                         android:backgroundTint="@color/colorPrimary"
                         android:drawableEnd="@drawable/ic_chat"
                         android:drawableTint="@color/white"
+                        android:fontFamily="@font/nexa_bold"
                         android:text="@string/chat"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
@@ -62,10 +63,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
-                        android:backgroundTint="@color/red"
+                        android:backgroundTint="@color/colorSecondary"
                         android:drawableEnd="@drawable/ic_block"
                         android:drawableTint="@color/white"
                         android:text="@string/remove"
+                        android:fontFamily="@font/nexa_bold"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 

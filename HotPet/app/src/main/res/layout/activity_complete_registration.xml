@@ -15,7 +15,7 @@
             android:layout_width="240dp"
             android:layout_height="190dp"
             android:contentDescription="@string/todo"
-            app:srcCompat="@drawable/logo_alt" />
+            app:srcCompat="@drawable/main_logo_img" />
 
         <TextView
             android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:gravity="center"
             android:text="@string/complete_registration"
             android:textColor="@color/colorSecondary"
-            android:textSize="35sp" />
+            android:textSize="30sp" />
 
 
         <TextView
@@ -70,6 +70,8 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="15dp"
+            android:fontFamily="@font/nexa_regular"
+            android:textSize="18sp"
             android:text="@string/birthdate"
             android:textColor="@color/textPrimary" />
 
@@ -89,6 +91,8 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="15dp"
+            android:fontFamily="@font/nexa_regular"
+            android:textSize="18sp"
             android:text="@string/gender"
             android:textColor="@color/textPrimary" />
 
@@ -123,6 +127,8 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="15dp"
+            android:fontFamily="@font/nexa_regular"
+            android:textSize="18sp"
             android:text="@string/category"
             android:textColor="@color/textPrimary" />
 
@@ -140,27 +146,27 @@
                 android:id="@+id/dogRB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="25dp"
                 android:text="@string/dog" />
 
             <RadioButton
                 android:id="@+id/catRB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="25dp"
                 android:text="@string/cat" />
 
             <RadioButton
                 android:id="@+id/horseRB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="25dp"
                 android:text="@string/horse" />
 
         </RadioGroup>
 
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/registerButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

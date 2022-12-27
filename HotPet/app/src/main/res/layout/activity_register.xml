@@ -15,7 +15,7 @@
             android:layout_width="240dp"
             android:layout_height="190dp"
             android:contentDescription="@string/todo"
-            app:srcCompat="@drawable/logo_alt" />
+            app:srcCompat="@drawable/main_logo_img" />
 
         <TextView
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="35dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:textColor="@color/textPrimary"
             app:boxBackgroundColor="@color/background"
             app:boxCornerRadiusBottomStart="16dp"
@@ -111,7 +111,7 @@
                 android:hint="@string/username_hint" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/registerButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
