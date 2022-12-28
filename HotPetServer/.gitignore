@@ -90,3 +90,7 @@ package-lock.json
 uploads/images
 uploads/music
 uploads/videos
+
+# Vercel
+/node_modules/
+.env
