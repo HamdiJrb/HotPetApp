@@ -83,6 +83,7 @@
             android:padding="10dp"
             android:src="@drawable/dislike" />
 
+        <!--
         <ImageButton
             android:id="@+id/testImageButton"
             android:layout_width="60dp"
@@ -94,7 +95,7 @@
             android:elevation="3dp"
             android:padding="10dp"
             android:src="@drawable/super_like" />
-
+        !-->
 
         <ImageButton
             android:id="@+id/likeIB"

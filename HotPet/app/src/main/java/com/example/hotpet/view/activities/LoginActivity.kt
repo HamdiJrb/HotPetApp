@@ -36,8 +36,8 @@ class LoginActivity : AppCompatActivity() {
     private var passwordTIET: TextInputEditText? = null
     private var loginButton: Button? = null
     private var signupButton: Button? = null
-    private var googleLoginButton: SignInButton? = null
-    private var facebookLoginButton: LoginButton? = null
+    //private var googleLoginButton: SignInButton? = null
+    //private var facebookLoginButton: LoginButton? = null
     private var forgotPasswordButton: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,8 +51,8 @@ class LoginActivity : AppCompatActivity() {
         passwordTIET = findViewById(R.id.passwordTIET)
         loginButton = findViewById(R.id.loginButton)
         signupButton = findViewById(R.id.signupButton)
-        googleLoginButton = findViewById(R.id.googleLoginButton)
-        facebookLoginButton = findViewById(R.id.facebookLoginButton)
+        //googleLoginButton = findViewById(R.id.googleLoginButton)
+        //facebookLoginButton = findViewById(R.id.facebookLoginButton)
         forgotPasswordButton = findViewById(R.id.forgotPasswordButton)
 
         loginButton!!.setOnClickListener { login() }
@@ -62,8 +62,8 @@ class LoginActivity : AppCompatActivity() {
         }
 
         setupObservers()
-        setupGoogleSignInButton()
-        setupFacebookSignInButton()
+        //setupGoogleSignInButton()
+        //setupFacebookSignInButton()
 
         forgotPasswordButton!!.setOnClickListener {
             startActivity(Intent(this@LoginActivity, ForgotPasswordActivity::class.java))
@@ -104,7 +104,7 @@ class LoginActivity : AppCompatActivity() {
         return true
     }
 
-    private fun setupGoogleSignInButton() {
+    /*private fun setupGoogleSignInButton() {
         googleLoginButton!!.setSize(SignInButton.SIZE_STANDARD)
         googleLoginButton!!.setOnClickListener {
             val gso: GoogleSignInOptions =
@@ -116,7 +116,7 @@ class LoginActivity : AppCompatActivity() {
             startActivityForResult(signInIntent, requestCodeGoogleSignIn)
         }
 
-    }
+    } */
 
     @Suppress("DEPRECATION")
     @Deprecated("Deprecated in Java")
@@ -135,7 +135,7 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    private fun setupFacebookSignInButton() {
+    /*private fun setupFacebookSignInButton() {
 
         @Suppress("DEPRECATION")
         FacebookSdk.sdkInitialize(this)
@@ -178,7 +178,7 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
         )
-    }
+    }*/
 
     private fun loginWithSocialMedia(email: String) {
         println("Sign in : $email")

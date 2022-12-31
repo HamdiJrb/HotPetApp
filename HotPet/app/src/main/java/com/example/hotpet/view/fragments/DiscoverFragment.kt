@@ -67,7 +67,7 @@ class DiscoverFragment : Fragment() {
     private var noMoreCardsTV: TextView? = null
     private var singleSwipeShimmer: ShimmerFrameLayout? = null
     private var givePermissionButton: Button? = null
-    private var testImageButton: ImageButton? = null
+    //private var testImageButton: ImageButton? = null
 
     // LIFECYCLE
 
@@ -88,7 +88,7 @@ class DiscoverFragment : Fragment() {
         noMoreCardsTV = view.findViewById(R.id.noMoreCardsTV)
         singleSwipeShimmer = view.findViewById(R.id.singleSwipeShimmer)
         givePermissionButton = view.findViewById(R.id.givePermissionButton)
-        testImageButton = view.findViewById(R.id.testImageButton)
+        //testImageButton = view.findViewById(R.id.testImageButton)
 
         // ACTIONS
         likeIB!!.setOnClickListener { flingContainer!!.topCardListener.selectRight() }
@@ -107,8 +107,7 @@ class DiscoverFragment : Fragment() {
         setupSwipeCard()
         setupObservers()
 
-        testImageButton!!.setOnClickListener {
-        }
+        //testImageButton!!.setOnClickListener { }
 
         currentLatitude = currentUser.latitude
         currentLongitude = currentUser.longitude

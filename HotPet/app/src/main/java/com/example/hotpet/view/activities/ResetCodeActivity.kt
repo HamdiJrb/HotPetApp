@@ -40,16 +40,15 @@ class ResetCodeActivity : AppCompatActivity() {
                 )
             }
         }
-
         setupObservers()
     }
 
     private fun setupObservers() {
         userViewModel.method.observe(this) {
             if (it.equals("verifyResetCode")) {
-                val intent = Intent(baseContext, NewPasswordActivity::class.java)
+                val newIntent = Intent(baseContext, NewPasswordActivity::class.java)
                 intent.putExtra("EMAIL", intent.getStringExtra("EMAIL")!!)
-                startActivity(intent)
+                startActivity(newIntent)
                 finish()
             }
         }
