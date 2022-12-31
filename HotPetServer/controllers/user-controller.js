@@ -292,9 +292,8 @@ async function doSendConfirmationEmail(email, token, protocol) {
         to: email,
         subject: "Confirm your email",
         html:
-            "<h3>Please confirm your email using this </h3><a href='" +
-            protocol + "://" + os.hostname() + ":" + port + "/user/confirmation/" + token +
-            "'>Link</a>",
+            "<h3>Please confirm your email using this </h3>" +
+            "<a href='https://hotpetserver.up.railway.app/user/confirmation/" + token + "'>Link</a>",
     })
 }
 
